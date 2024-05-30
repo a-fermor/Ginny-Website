@@ -1,0 +1,41 @@
+body{
+    /* cursor: url('../images/pin.png'), auto; */
+    width: 100%;
+    height: 150vh;
+    overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
+  height: 10%;
+  border: 1px solid black;
+}
+
+nav > p {
+  display: inline-block;
+  white-space: nowrap;
+  border: 1px solid blue;
+}
+ul {
+  position: relative;
+  display: inline-block;
+  list-style: none;
+  text-align: right;
+  border: 1px solid red;
+
+}
+
+li {
+  display: inline-block;
+  text-align: right;
+  border: 1px solid red;
+}
+
+
+
